@@ -73,7 +73,7 @@ To install **SUKHOI**, simply clone the repository from GitHub and follow the in
 
 ```bash
 git clone https://github.com/amitpatle/SUKHOI.git
-cd sukhui
+cd SUKHOI
 sudo bash install.sh
 
 chmod +x SUKHOI.py
