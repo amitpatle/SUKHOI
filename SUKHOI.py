@@ -166,7 +166,7 @@ def ddos():
     
          
  \033[0m''')
-    print("  {69}-Back To Main Menu \n\n")
+    print("  69-Back To Main Menu \n\n")
     choice2 = raw_input(color_random[0] + "DDOS >> ")
 
     if choice2 == "69":
@@ -190,7 +190,7 @@ def rat():
     
          
  \033[0m''')
-    print("  {69}-Back To Main Menu \n\n")
+    print("  69-Back To Main Menu \n\n")
     choice2 = raw_input(color_random[0] +"RAT >> ")
 
     if choice2 == "69":
@@ -214,7 +214,7 @@ def bugbounty():
     
          
  \033[0m''')
-    print("  {69}-Back To Main Menu \n\n")
+    print("  69-Back To Main Menu \n\n")
     choice2 = raw_input(color_random[0] +"BugBounty >> ")
 
     if choice2 == "69":
@@ -229,22 +229,17 @@ def bugbounty():
         
 def more():
     print('''\033[91m
-                          
-      .d 88   88  dP""b8 88 888888 88888 88""Yb 
-    .d88 88   88 dP   `" 88 88__     .dP 88__dP 
-      88 Y8   8P Yb      88 88""   o `Yb 88"Yb  
-      88 `YbodP'  YboodP 88 88     YbodP 88  Yb 
-      
-       [!] Some of my Tools [!]
+
+       </> Some of my Tools </>
          
  \033[0m''')
-    print("   {1}--AirCrackAuto(Wifi Hacking)")
-    print("   {2}--Obfuscator")
-    print("   {3}--Lumin (Steganography tool)")
-    print("   {4}--SQLiScanner (SOON)")
-    print("   {5}--Crypter (SOON) \n")
-    print("   {69}-Return to main menu \n\n ")
-    choice11 = raw_input(color_random[0] +"1ucif3r >> ")
+    print("   1--AirCrackAuto(Wifi Hacking)")
+    print("   2--Obfuscator")
+    print("   3--Lumin (Steganography tool)")
+    print("   4--SQLiScanner (SOON)")
+    print("   5--Crypter (SOON) \n")
+    print("   69-Return to main menu \n\n ")
+    choice11 = raw_input(color_random[0] +" >> ")
     os.system('clear')
     if choice11 == "1":
         clearScr()
@@ -274,7 +269,7 @@ def aircrack():
     print ("A Automate script for WiFi hacking . You Need a Wifi Adaptor For this . ")
     choiceupdate = raw_input("Continue Y / N: ")
     if choiceupdate in yes:
-        os.system("git clone https://github.com/1ucif3r/aircrackauto.git")
+        os.system("git clone https://github.com//aircrackauto.git")
         os.system("cd aircrackauto && chmod +x install.sh")
         time.sleep(3)
         os.system("bash aircrackauto/install.sh")
@@ -284,14 +279,14 @@ def aircrack():
         more()
         
 def lumin():
-    os.system("git clone https://github.com/1ucif3r/Lumin.git")
+    os.system("git clone https://github.com//Lumin.git")
     os.system("cd Lumin && pip3 install -r requirements.txt")
     os.system("cd Lumin && python3 main.py")
     clearScr()
     more()
     
 def obf():
-    os.system("git clone https://github.com/1ucif3r/Obfuscator.git")
+    os.system("git clone https://github.com//Obfuscator.git")
     os.system("cd Obfuscator && python3 obfuscator.py")
     clearScr()
     more()
@@ -330,7 +325,7 @@ def dtools():
 
          
  \033[0m''')
-    print("   {69}-Back To The Main Menu \n\n")
+    print("   69-Back To The Main Menu \n\n")
     choice4 = raw_input(color_random[0] +"Dark4rmy >> ")
     if choice4 == "1":
         clearScr()
@@ -517,8 +512,7 @@ def commix():
 
 
 def pixiewps():
-    print"""Pixiewps is a tool written in C used to bruteforce offline the WPS pin exploiting the low or non-existing entropy of some Access Points, the so-called "pixie dust attack" discovered by Dominique Bongard in summer 2014. It is meant for educational purposes only
-    """
+    print("""Pixiewps is a tool written in C used to bruteforce offline the WPS pin exploiting the low or non-existing entropy of some Access Points, the so-called "pixie dust attack" discovered by Dominique Bongard in summer 2014. It is meant for educational purposes only.""")
     choicewps = raw_input("Continue ? Y/N : ")
     if choicewps in yes:
         os.system("git clone https://github.com/wiire/pixiewps.git")
@@ -540,23 +534,23 @@ def webhack():
       YbdPYbdP   88""   88""Yb
        YP  YP    888888 88oodP
     
-     [!] Web Hacking Tools [!]
+     </> Web Hacking Tools </>
          
  \033[0m''')
-    print("   {1}--Drupal Hacking ")
-    print("   {2}--Inurlbr")
-    print("   {3}--Wordpress & Joomla Scanner")
-    print("   {4}--Gravity Form Scanner")
-    print("   {5}--File Upload Checker")
-    print("   {6}--Wordpress Exploit Scanner")
-    print("   {7}--Wordpress Plugins Scanner")
-    print("   {8}--Shell and Directory Finder")
-    print("   {9}--Joomla! 1.5 - 3.4.5 remote code execution")
-    print("   {10}-Vbulletin 5.X remote code execution")
+    print("   1--Drupal Hacking ")
+    print("   2--Inurlbr")
+    print("   3--Wordpress & Joomla Scanner")
+    print("   4--Gravity Form Scanner")
+    print("   5--File Upload Checker")
+    print("   6--Wordpress Exploit Scanner")
+    print("   7--Wordpress Plugins Scanner")
+    print("   8--Shell and Directory Finder")
+    print("   9--Joomla! 1.5 - 3.4.5 remote code execution")
+    print("   10-Vbulletin 5.X remote code execution")
     print(
-        "   {11}-BruteX - Automatically brute force all services running on a target")
-    print("   {12}-Arachni - Web Application Security Scanner Framework \n ")
-    print("   {69}-Back To Main Menu \n")
+        "   11-BruteX - Automatically brute force all services running on a target")
+    print("   12-Arachni - Web Application Security Scanner Framework \n ")
+    print("   69-Back To Main Menu \n")
     choiceweb = raw_input(color_random[0] +"Web >> ")
     if choiceweb == "1":
         clearScr()
@@ -622,7 +616,7 @@ def inurl():
     dork = raw_input("select a Dork:")
     output = raw_input("select a file to save :")
     os.system(
-        "./inurlbr.php --dork '{0}' -s {1}.txt -q 1,6 -t 1".format(dork, output))
+        "./inurlbr.php --dork '0' -s 1.txt -q 1,6 -t 1".format(dork, output))
     if cinurl in no:
         insinurl()
     elif cinurl == "":
@@ -961,20 +955,20 @@ def info():
     88 88 Y88 88""   Yb   dP
     88 88  Y8 88      YbodP
     
-[!] Information Gathering Tools [!]
+</> Information Gathering Tools </>
          
  \033[0m''')
-    print("  {1}--Nmap ")
-    print("  {2}--Setoolkit")
-    print("  {3}--Port Scanning")
-    print("  {4}--Host To IP")
-    print("  {5}--wordpress user")
-    print("  {6}--CMS scanner")
-    print("  {7}--XSStrike")
-    print("  {8}--Dork - Google Dorks Passive Vulnerability Auditor ")
-    print("  {9}--Scan A server's Users  ")
-    print("  {10}-Crips\n  ")
-    print("  {69}-Back To Main Menu \n\n")
+    print("  1--Nmap ")
+    print("  2--Setoolkit")
+    print("  3--Port Scanning")
+    print("  4--Host To IP")
+    print("  5--wordpress user")
+    print("  6--CMS scanner")
+    print("  7--XSStrike")
+    print("  8--Dork - Google Dorks Passive Vulnerability Auditor ")
+    print("  9--Scan A server's Users  ")
+    print("  10-Crips\n  ")
+    print("  69-Back To Main Menu \n\n")
     choice2 = raw_input(color_random[0] +"InformationG. >> ")
     if choice2 == "1":
         os.system('clear')
@@ -1054,13 +1048,13 @@ def passwd():
     88"""   dP__Yb  o.`Y8b o.`Y8b   YbdPYbdP    8I  dY
     88     dP""""Yb 8bodP' 8bodP'    YP  YP    8888Y"   
 
-    [!] Password Attack Tools [!]
+    </> Password Attack Tools </>
          
  \033[0m''')
-    print("   {1}--Cupp ")
-    print("   {2}--Ncrack \n ")
+    print("   1--Cupp ")
+    print("   2--Ncrack \n ")
 
-    print("   {69}-Back To Main Menu \n")
+    print("   69-Back To Main Menu \n")
     choice3 = raw_input(color_random[0] +"Passwd >> ")
     if choice3 == "1":
         clearScr()
@@ -1107,14 +1101,14 @@ def wire():
       YbdPYbdP   88 88"Yb  88""   88  .o 88""   o.`Y8b o.`Y8b
        YP  YP    88 88  Yb 888888 88ood8 888888 8bodP' 8bodP'
     
-      [!] Wireless Testing Tools [!]
+      </> Wireless Testing Tools </>
          
  \033[0m''')
-    print("   {1}--reaver ")
-    print("   {2}--pixiewps")
-    print("   {3}--Bluetooth Honeypot GUI Framework")
-    print("   {4}--Fluxion\n")
-    print("   {69}-Back To The Main Menu \n\n")
+    print("   1--reaver ")
+    print("   2--pixiewps")
+    print("   3--Bluetooth Honeypot GUI Framework")
+    print("   4--Fluxion\n")
+    print("   69-Back To The Main Menu \n\n")
     choice4 = raw_input(color_random[0] +"Wireless >> ")
     if choice4 == "1":
         clearScr()
@@ -1148,19 +1142,19 @@ def exp():
     88""    dPYb  88"""  88  .o Yb   dP 88   88   
     888888 dP  Yb 88     88ood8  YbodP  88   88   
 
-    [!] Exploitation Tools [!]
+    </> Exploitation Tools </>
          
  \033[0m''')
-    print("   {1}--ATSCAN")
-    print("   {2}--sqlmap")
-    print("   {3}--Shellnoob")
-    print("   {4}--commix")
-    print("   {5}--FTP Auto Bypass")
-    print("   {6}--jboss-autopwn")
-    print("   {7}--Blind SQL Automatic Injection And Exploit")
-    print("   {8}--Bruteforce the Android Passcode given the hash and salt")
-    print("   {9}--Joomla SQL injection Scanner \n ")
-    print("   {69}-Go Back To Main Menu \n\n")
+    print("   1--ATSCAN")
+    print("   2--sqlmap")
+    print("   3--Shellnoob")
+    print("   4--commix")
+    print("   5--FTP Auto Bypass")
+    print("   6--jboss-autopwn")
+    print("   7--Blind SQL Automatic Injection And Exploit")
+    print("   8--Bruteforce the Android Passcode given the hash and salt")
+    print("   9--Joomla SQL injection Scanner \n ")
+    print("   69-Go Back To Main Menu \n\n")
     choice5 = raw_input(color_random[0] +"Exploitation >> ")
     if choice5 == "2":
         clearScr()
@@ -1208,15 +1202,15 @@ def social():
     o.`Y8b Yb   dP Yb      88  dP__Yb  88  .o 
     8bodP'  YbodP   YboodP 88 dP""""Yb 88ood8 
 
-    [!] Social Engineering Tools [!]
+    </> Social Engineering Tools </>
          
  \033[0m''')
-    print("   {1}--Setoolkit ")
-    print("   {2}--SSLtrip")
-    print("   {3}--pyPISHER")
-    print("   {4}--ZPISHER")
-    #print("   {4}--SMTP Mailer \n ")
-    print("   {69}-Back To Main Menu \n\n")
+    print("   1--Setoolkit ")
+    print("   2--SSLtrip")
+    print("   3--pyPISHER")
+    print("   4--ZPISHER")
+    #print("   4--SMTP Mailer \n ")
+    print("   69-Back To Main Menu \n\n")
     choice6 = raw_input(color_random[0] +"SocialEngineering >> ")
     if choice6 == "1":
         clearScr()
@@ -1272,12 +1266,12 @@ def zpisher():
      dP   88"""  888888 88 o.`Y8b 888888 88""   88"Yb  
     d8888 88     88  88 88 8bodP' 88  88 888888 88  Yb 
  
-    [!] ZPhisher Tool [!]
+    </> ZPhisher Tool </>
          
  \033[0m''')
-    print("   {1}--Kali Linux ")
-    print("   {2}--Termux")
-    print("   {69}-Back To Main Menu \n")
+    print("   1--Kali Linux ")
+    print("   2--Termux")
+    print("   69-Back To Main Menu \n")
     choiceweb = raw_input(color_random[0] +"ZPhisher~# ")
     if choiceweb == "1":
         clearScr()

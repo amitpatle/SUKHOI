@@ -55,9 +55,9 @@ echo "                                              [- 4M17 P47L3 ]";
 echo "                                                                             ";
 echo "                                     Welcome To SUKHOI Installer           ";
 echo -e "${GREEN}===================================================================${NC} "                                                                                                                                                                                                                                
-echo -e "${BLUE}   www.dark4rmy.in | Instagram.com/0x1ucif3r | Github.com/AmitPatle ${NC}"
+echo -e "${BLUE}   www.amitpatle.me | Github.com/AmitPatle ${NC}"
 echo -e "${GREEN}===================================================================${NC}          "
-echo -e "${RED}                                   [!] This Tool Must Run As ROOT [!]${NC}\n"
+echo -e "${RED}                                   </> This Tool Must Run As ROOT </>${NC}\n"
 echo ""
 echo -e "${CYAN}[>] Press ENTER to Install SUKHOI, CTRL+C to Abort.${NC}"
 read INPUT
@@ -72,9 +72,9 @@ else
     BIN_DIR="/usr/bin/"
 fi
 
-echo "[✔] Checking directories...";
+echo " Checking directories...";
 if [ -d "$INSTALL_DIR" ]; then
-    echo "[!] A Directory SUKHOI Was Found.. Do You Want To Replace It ? [y/n]:" ;
+    echo "</> A Directory SUKHOI Was Found.. Do You Want To Replace It ? [y/n]:" ;
     read mama
     if [ "$mama" = "y" ]; then
         rm -R "$INSTALL_DIR"
@@ -83,7 +83,7 @@ if [ -d "$INSTALL_DIR" ]; then
     fi
 fi
 
-echo "[✔] Installing ...";
+echo " Installing ...";
 echo "";
 git clone https://github.com/ammitpatle/SUKHOI.git "$INSTALL_DIR";
 echo "#!/bin/bash
@@ -96,13 +96,13 @@ rm SUKHOI;
 if [ -d "$INSTALL_DIR" ] ;
 then
     echo "";
-        echo "[✔] Successfuly Installed !!! \n\n";
+        echo " Successfuly Installed !!! \n\n";
         echo -e $GREEN "       [+]+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[+]"
         echo            "       [+]                                                             [+]"
-        echo -e $GREEN "       [+]     ✔✔✔ Now Just Type In Terminal (SUKHOI) ✔✔✔         [+]"
+        echo -e $GREEN "       [+]      Now Just Type In Terminal (SUKHOI)          [+]"
         echo            "       [+]                                                             [+]"
         echo -e $GREEN "       [+]+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[+]"
 else
-    echo "[✘] Installation Failed Do Properly Again NIGGA !!! [✘]";
+    echo " ERROR : Installation Failed Do Properly Again  ";
     exit
 fi
