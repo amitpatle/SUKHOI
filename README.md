@@ -1,4 +1,4 @@
-
+<div align="center"> 
   
 ```
 ███████╗██╗   ██╗██╗  ██╗██╗  ██╗ ██████╗ ██╗
@@ -8,7 +8,8 @@
 ███████║╚██████╔╝██║  ██╗██║  ██║╚██████╔╝██║
 ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝
 ```
-  
+  <img src="/installer.png" >
+</div>
 
 
 ###  - A Powerful Linux Tool for Victim Source Gathering
@@ -72,12 +73,16 @@
 To install **SUKHOI**, simply clone the repository from GitHub and follow the instructions in the README for setup.
 
 ```bash
+[ INSTALLER ]
 git clone https://github.com/amitpatle/SUKHOI.git
 cd SUKHOI
 sudo bash install.sh
-
+SUKHOI
+------------------------
+[ NON - INSTALLER ]
+git clone https://github.com/amitpatle/SUKHOI.git
+cd SUKHOI
 chmod +x SUKHOI.py
-
 python2 SUKHOI.py
 ```
 
