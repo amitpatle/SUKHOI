@@ -78,8 +78,8 @@ directories = ['/uploads/', '/upload/', '/files/', '/resume/', '/resumes/', '/do
 shells = ['wso.php', 'shell.php', 'an.php', 'hacker.php', 'lol.php', 'up.php', 'cp.php', 'upload.php',
           'sh.php', 'pk.php', 'mad.php', 'x00x.php', 'worm.php', '1337worm.php', 'config.php', 'x.php', 'haha.php']
 upload = []
-yes = set(['yes', 'y', 'ye', 'Y'])
-no = set(['no', 'n'])
+yes = set(['yes', 'y', 'ye', 'Y','Yes'])
+no = set(['no', 'n','N','NO'])
 
 
 
@@ -110,7 +110,7 @@ def menu():
 [6]  Web Hacking
 [7]  DDOS Tools
 [8]  Remote Administrator Tools (RAT)
-[9]  Bug Bounty Tools
+[9]  mxcheck
 [10] D-Tools
 [11] More
 
@@ -140,7 +140,7 @@ def menu():
     elif choice == "8":
         rat()
     elif choice == "9":
-        bugbounty()
+        mxcheck()
     elif choice == "10":
         dtools()
     elif choice == "11":
@@ -285,6 +285,14 @@ def lumin():
     clearScr()
     more()
     
+def mxcheck():
+    os.system("git clone https://github.com/steffenfritz/mxcheck.git")
+    os.system("cd mxcheck ")
+    os.system("./mxcheck -s")
+    clearScr()
+    more()
+
+
 def obf():
     os.system("git clone https://github.com//Obfuscator.git")
     os.system("cd Obfuscator && python3 obfuscator.py")
